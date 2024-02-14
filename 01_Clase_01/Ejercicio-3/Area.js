@@ -10,7 +10,7 @@
 
 // resArea = Math.PI * baseExp;
 
-// alert("El área de un círculo con radio X es: " + resArea);
+// alert("El área de un círculo con radio X es: " + resArea.toFixed(4));
 
 
 // -------------------Versión 2-------------------
@@ -22,4 +22,4 @@ let baseExp = radio * radio;
 
 resArea = pi * baseExp;
 
-alert("El área de un círculo con radio X es: " + resArea);
+alert("El área de un círculo con radio X es: " + resArea.toFixed(4));
